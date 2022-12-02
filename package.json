@@ -1,0 +1,22 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericvtheg/AdventOfCode.git"
+  },
+  "author": "Eric Ventor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericvtheg/AdventOfCode/issues"
+  },
+  "homepage": "https://github.com/ericvtheg/AdventOfCode#readme",
+  "devDependencies": {
+    "prettier": "^2.8.0"
+  }
+}

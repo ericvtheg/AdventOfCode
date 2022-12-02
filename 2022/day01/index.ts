@@ -28,5 +28,3 @@ const partTwo = (topN: number) => {
 console.log("test", test());
 console.log("partOne", partOne());
 console.log("partTwo", partTwo(3));
-
-
