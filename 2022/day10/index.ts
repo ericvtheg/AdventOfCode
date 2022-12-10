@@ -1,25 +1,6 @@
 import test from './test';
 import input from './input';
 
-class Stack {
-  stack: any[] = [];
-
-  push(element: any) {
-    this.stack.push(element);
-  }
-
-  // pop operation
-  pop() {
-    // return top most element from the stack
-    // and removes it
-    // Underflow if stack is empty
-    if (this.stack.length === 0) {
-      return 'Stack Is Empty';
-    }
-    return this.stack.pop();
-  }
-}
-
 enum OperationType {
   noop = 'noop',
   addx = 'addx',
